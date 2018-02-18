@@ -18,7 +18,7 @@ ls /
 
 ## 5: Auth
 
-create /area51 "my dark secrets"
+create /area51 "myDarkSecrets"
 
 addauth digest jamesbond:password123
 
