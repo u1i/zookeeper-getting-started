@@ -23,3 +23,5 @@ create /area51 "my dark secrets"
 addauth digest jamesbond:password123
 
 setAcl /area51 auth:jamesbond:pwd:crwda # create read write delete admin
+
+setAcl /public world:anyone:crdwa
