@@ -12,5 +12,12 @@ docker exec -it _CONTAINER_ID_ bash
 ## 4: Play with znodes
 
 create /bla "test_data"
+create /bla/some_json '{"bla":"blub"}'
 
 ls /
+
+## 5: Auth
+
+create /area51 "my dark secrets"
+addauth digest jamesbond:password123
+setAcl /area51 auth:jamesbond:pwd:crwda # create read write delete admin
