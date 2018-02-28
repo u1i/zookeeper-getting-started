@@ -13,6 +13,7 @@ docker exec -it _CONTAINER_ID_ bash
 ## 4: Play with znodes
 
 create /bla "test_data"
+
 create /bla/some_json '{"bla":"blub"}'
 
 ls /
